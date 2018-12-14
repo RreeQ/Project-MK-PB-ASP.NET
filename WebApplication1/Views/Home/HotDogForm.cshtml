@@ -1,0 +1,26 @@
+﻿@model WebApplication1.ViewModel.HotDogWithSauceViewModel
+@{
+    ViewBag.Title = "EditHotDog";
+}
+
+<h2>HotDogForm</h2>
+@using (Html.BeginForm("AddHotDog", "Home"))
+{
+    <div class="form-group">
+        @Html.Label("Wprowadź Imię oraz Nazwisko")
+        @Html.TextBoxFor(x => x.HotDog.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.HotDog.Name)
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Wprowadź numer telefonu")
+        @Html.TextBoxFor(x => x.HotDog.Phone, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Wybierz Sos")
+        @Html.DropDownListFor(x => x.HotDog.SauceId, new SelectList(Model.Sauces, "Id", "Name"), "Wybierz sos do HotDoga", new { @class = "form-control" })
+    </div>
+    @Html.HiddenFor(x => x.HotDog.Id)
+    <button type="submit">Zamów</button>
+}

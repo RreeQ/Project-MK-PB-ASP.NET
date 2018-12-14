@@ -1,0 +1,8 @@
+C:\Users\marci\Documents\GitHub\Project-MK-PB-ASP.NET\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.deps.json
+C:\Users\marci\Documents\GitHub\Project-MK-PB-ASP.NET\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.json
+C:\Users\marci\Documents\GitHub\Project-MK-PB-ASP.NET\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.dev.json
+C:\Users\marci\Documents\GitHub\Project-MK-PB-ASP.NET\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-ASP.NET\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\marci\Documents\GitHub\Project-MK-PB-ASP.NET\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\marci\Documents\GitHub\Project-MK-PB-ASP.NET\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\marci\Documents\GitHub\Project-MK-PB-ASP.NET\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfo.cs
