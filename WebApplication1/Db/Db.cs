@@ -9,7 +9,7 @@ namespace WebApplication1.DbContext
 {
     public class Db : Microsoft.EntityFrameworkCore.DbContext
     {
-        public Db() : base(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BestHotDogs;Integrated Security=True;")
+        public Db() : base()
         {
 
         }
