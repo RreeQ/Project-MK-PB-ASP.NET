@@ -17,6 +17,5 @@ namespace WebApplication1.Models
         public Sauce Sauce { get; set; }
         public int Phone { get; set; }
 
-
     }
 }

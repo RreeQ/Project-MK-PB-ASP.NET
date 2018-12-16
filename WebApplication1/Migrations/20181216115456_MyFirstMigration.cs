@@ -42,8 +42,8 @@ namespace WebApplication1.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
-
-            migrationBuilder.CreateIndex(
+        
+        migrationBuilder.CreateIndex(
                 name: "IX_HotDog_SauceId",
                 table: "HotDog",
                 column: "SauceId");

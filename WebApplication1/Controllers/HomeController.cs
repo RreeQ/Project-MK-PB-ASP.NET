@@ -28,7 +28,7 @@ namespace WebApplication1.Controllers
         [AllowAnonymous]
         public ActionResult Index()
         {
-            return View(_db.HotDog.Include(x => x.Sauce).ToList());
+            return View(_db.HotDog.Include(x => x.Sauce).ToList()); 
         }
 
         [Authorize]
