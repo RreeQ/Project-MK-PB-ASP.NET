@@ -9,6 +9,7 @@ namespace WebApplication1.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.Sql("CREATE DATABASE BestHotDogs");
             migrationBuilder.CreateTable(
                 name: "Sauces",
                 columns: table => new
