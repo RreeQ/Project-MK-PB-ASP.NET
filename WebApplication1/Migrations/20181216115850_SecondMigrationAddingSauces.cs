@@ -8,6 +8,7 @@ namespace WebApplication1.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.Sql("SET IDENTITY_INSERT [dbo].[Sauces] ON");
             migrationBuilder.Sql("INSERT INTO[dbo].[Sauces] ([Id], [Name]) VALUES(1, N'Majonez')");
             migrationBuilder.Sql("INSERT INTO[dbo].[Sauces] ([Id], [Name]) VALUES(2, N'Keczup')");
             migrationBuilder.Sql("INSERT INTO[dbo].[Sauces] ([Id], [Name]) VALUES(3, N'Duński')");
@@ -16,6 +17,7 @@ namespace WebApplication1.Migrations
             migrationBuilder.Sql("INSERT INTO[dbo].[Sauces] ([Id], [Name]) VALUES(6, N'Diabolo')");
             migrationBuilder.Sql("INSERT INTO[dbo].[Sauces] ([Id], [Name]) VALUES(7, N'Arabski Łagodny')");
             migrationBuilder.Sql("INSERT INTO[dbo].[Sauces] ([Id], [Name]) VALUES(8, N'Arabski Ostry')");
+            migrationBuilder.Sql("SET IDENTITY_INSERT [dbo].[Sauces] OFF");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
