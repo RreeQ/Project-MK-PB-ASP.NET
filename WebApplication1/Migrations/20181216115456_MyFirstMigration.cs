@@ -51,11 +51,6 @@ namespace WebApplication1.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "HotDog");
-
-            migrationBuilder.DropTable(
-                name: "Sauces");
         }
     }
 }
