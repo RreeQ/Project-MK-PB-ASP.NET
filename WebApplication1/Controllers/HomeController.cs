@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.DbContext;
+using WebApplication1.DbContexts;
 using WebApplication1.Models;
 using WebApplication1.ViewModel;
 

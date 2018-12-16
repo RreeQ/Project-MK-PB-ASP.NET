@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using WebApplication1.Data;
 using WebApplication1.Models;
 using WebApplication1.Services;
-using WebApplication1.DbContext;
+using WebApplication1.DbContexts;
 
 namespace WebApplication1
 {
@@ -27,10 +27,6 @@ namespace WebApplication1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var connection = @"Server=(localdb)\mssqllocaldb;Database=BestHotDogs;Trusted_Connection=True;ConnectRetryCount=0";
-            services.AddDbContext<Db>
-                (options => options.UseSqlServer(connection));
-
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 

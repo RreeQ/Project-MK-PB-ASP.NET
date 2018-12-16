@@ -5,19 +5,24 @@ using System.Web;
 using WebApplication1.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace WebApplication1.DbContext
+namespace WebApplication1.DbContexts
 {
-    public class Db : Microsoft.EntityFrameworkCore.DbContext
+    public class Db : DbContext
     {
-        public Db()
+        public Db() : base()
         {
         }
 
-        public Db(DbContextOptions<Db> options)
-            : base(options)
-        { }
-
         public DbSet<HotDog> HotDog { get; set; }
         public DbSet<Sauce> Sauces { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BestHotDogs;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;";
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(connectionString);
+            }
+        }
     }
  }
