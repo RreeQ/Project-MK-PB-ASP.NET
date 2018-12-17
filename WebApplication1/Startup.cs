@@ -12,6 +12,9 @@ using WebApplication1.Data;
 using WebApplication1.Models;
 using WebApplication1.Services;
 using WebApplication1.DbContexts;
+using WebApplication1.Extensions;
+using WebApplication1.Mapper;
+using NLog.Web;
 
 namespace WebApplication1
 {
@@ -38,11 +41,13 @@ namespace WebApplication1
             services.AddTransient<IEmailSender, EmailSender>();
 
             services.AddMvc();
+            services.AddSingleton(MapperCfg.Initialize());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            env.ConfigureNLog("nlog.config");
 
             if (env.IsDevelopment())
             {
@@ -58,6 +63,8 @@ namespace WebApplication1
             app.UseStaticFiles();
 
             app.UseAuthentication();
+
+            app.UseError();
 
             app.UseMvc(routes =>
             {
