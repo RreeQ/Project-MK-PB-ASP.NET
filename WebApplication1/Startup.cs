@@ -15,6 +15,7 @@ using WebApplication1.DbContexts;
 using WebApplication1.Extensions;
 using WebApplication1.Mapper;
 using NLog.Web;
+using WebApplication1.Repo;
 
 namespace WebApplication1
 {
@@ -42,8 +43,11 @@ namespace WebApplication1
 
             services.AddMvc();
             services.AddSingleton(MapperCfg.Initialize());
-        }
 
+            services.AddScoped<IHotDogService, HotDogService>();
+            services.AddScoped<IRepo, Repo.Repos>();
+        }
+            
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {

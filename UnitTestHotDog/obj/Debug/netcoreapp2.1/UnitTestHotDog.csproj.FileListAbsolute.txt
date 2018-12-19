@@ -1,0 +1,17 @@
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\bin\Debug\netcoreapp2.1\UnitTestHotDog.deps.json
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\bin\Debug\netcoreapp2.1\UnitTestHotDog.runtimeconfig.json
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\bin\Debug\netcoreapp2.1\UnitTestHotDog.runtimeconfig.dev.json
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\bin\Debug\netcoreapp2.1\UnitTestHotDog.dll
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\bin\Debug\netcoreapp2.1\WebApplication1.dll
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\bin\Debug\netcoreapp2.1\WebApplication1.pdb
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\obj\Debug\netcoreapp2.1\UnitTestHotDog.csprojAssemblyReference.cache
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\obj\Debug\netcoreapp2.1\UnitTestHotDog.csproj.CoreCompileInputs.cache
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\obj\Debug\netcoreapp2.1\UnitTestHotDog.AssemblyInfoInputs.cache
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\obj\Debug\netcoreapp2.1\UnitTestHotDog.AssemblyInfo.cs
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\obj\Debug\netcoreapp2.1\UnitTestHotDog.csproj.CopyComplete
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\bin\Debug\netcoreapp2.1\UnitTestHotDog.pdb
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\obj\Debug\netcoreapp2.1\UnitTestHotDog.dll
+C:\Users\pawel\Desktop\temp\UnitTestHotDog\obj\Debug\netcoreapp2.1\UnitTestHotDog.pdb
